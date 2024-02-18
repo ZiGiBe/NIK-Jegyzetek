@@ -23,6 +23,9 @@ $$
 $$
 |A_U| = 20lg(\frac{1}{1+j\omega^2R^2C^2})^\frac{1}{2}
 $$
+$$
+[A_U]=db
+$$
 - Bode-diagram
 ```tikz
 	\begin{document}
