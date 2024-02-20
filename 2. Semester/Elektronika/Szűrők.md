@@ -3,7 +3,7 @@
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
-\begin{circuitikz}[]
+\begin{circuitikz}
 \draw (0,0) to[short, *-] (1,0)
 	  (1,0) to[R, l=$R$] (5,0)
 	  (5,0) to[C,a=$\downarrow U_{be}$ , l=$C \downarrow U_{ki}$] (5,-3)

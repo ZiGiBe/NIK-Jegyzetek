@@ -1,3 +1,4 @@
+#note
 ## Alapelvek
 ### Absztrakció
 - Megfigyelt tárgyak, jelenségek közös jellemzőinek felismerése

@@ -1,3 +1,4 @@
+#note
 ## Modellezés lépései
 1. Megkeressük az objektumokat
 2. Objektumcsoportok közös tulajdonságait osztállyal írjuk ki
