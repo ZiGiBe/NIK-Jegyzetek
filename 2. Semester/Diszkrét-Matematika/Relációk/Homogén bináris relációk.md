@@ -19,5 +19,18 @@ $$
 \forall{a}\forall{b}\forall{c} \space (a\mathrel{R}b)\land(b\mathrel{R}c) \implies (a\mathrel{R}c)
 $$
 TODO: Gráfok
+```tikz
+\begin{document}
+\begin{tikzpicture}[scale=1.5]
+
+\node(a) at (0, 0) {a};
+\node(b) at (1, 0) {b};
+
+\path[->] (a) edge (b);
+
+\end{tikzpicture}
+\end{document}
+```
+
 
 Azokat a homogén bináris relációkat, melyek reflexívek, szimmetrikusak és tranzitívek **Ekvivalencia relációnak** nevezzük.
