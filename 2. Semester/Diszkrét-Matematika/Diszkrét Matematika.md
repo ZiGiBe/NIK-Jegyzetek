@@ -1,2 +1,3 @@
 #subject
 - [[Relációk]]
+- [[Gráfok]]
