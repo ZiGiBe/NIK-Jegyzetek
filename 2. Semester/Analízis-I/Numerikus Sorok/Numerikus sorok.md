@@ -1,0 +1,2 @@
+- Leibniz-sor összege
+	- Konvergens Leibniz-féle sorok összegének abszolút értéke nem nagyobb az első tag abszolút értékével
