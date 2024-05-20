@@ -1,0 +1,10 @@
+1. [[I. Egyszerű programozási tételek]]
+2. [[II. Alapvető Rendező Algoritmusok]]
+3. [[III. Összetett programozási tételek]]
+4. [[IV. Összetett programozási tételek II.]]
+5. [[V. Programozási tételek összeépítése]]
+6. [[VI. Programozási tételek Összeépítése II.]]
+7. [[VII. Programozási tételek összeépítése III.]]
+8. [[VIII. Bináris keresés I.]]
+9. [[IX. Bináris keresés II.]]
+10. 
