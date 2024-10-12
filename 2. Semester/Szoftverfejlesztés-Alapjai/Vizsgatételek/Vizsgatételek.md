@@ -7,4 +7,11 @@
 7. [[VII. Programozási tételek összeépítése III.]]
 8. [[VIII. Bináris keresés I.]]
 9. [[IX. Bináris keresés II.]]
-10. 
+10. [[X. Bináris keresés III.]]
+11. [[XI. Halmazok I.]]
+12. [[XII. Halmazok II.]]
+13. [[XIII. Halmazok III.]]
+14. [[XIV. Maximumkiválasztás, Rekurzív maximumkiválasztás]]
+15. [[XV. Összefésülő rendezés]]
+16. [[XVI. Quicksort]]
+17. [[XVII. K. legkisebb elem]]
