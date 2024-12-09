@@ -1,3 +1,4 @@
+#note
 ## Véges sok pontban nem értelmezett függvény improprius integrálja
 - Ha f valós-valós függvény integrálható \[\a, b\]\ intervallumon, akkor értékét az intervallum véges sok pontjában megváltoztatva olyan g függvényt kapunk, ami ugyancsak integrálható
   \[\a, b\]\-n és megegyeznek

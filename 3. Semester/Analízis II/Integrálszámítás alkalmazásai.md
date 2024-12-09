@@ -1,3 +1,4 @@
+#note
 ## Függvénygörbe alatti terület
 - Az \[\a, b\]\ intervallumon értelmezett nemnegatív, folytonos f függvény grafikonja alatti területet az f függvény \[\a, b\]\ intervallumon vett határozott integrálját értjük
 $$

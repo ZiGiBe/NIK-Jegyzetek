@@ -1,3 +1,4 @@
+#note
 - **n-edrendű differenciálegyenlet általános megoldása**:  Olyan függvény, amely deriváltjaival együtt kielégíti a differenciálegyenletet és pontosan n darab egymástól független paramétert tartalmaz
 - **n-edrendű differenciálegyenlet partikuláris megoldása**: olyan függvény, ami deriváltjaival kielégíti a differenciálegyenletet és legfeljebb n-1 darab egymástól független paramétert tartalmaz
 - **Integrálgörbe**: Az a grafikon, ami a differenciálegyenlet egy partikuláris megoldását ábrázolja a derékszögű koordinátarendszerben

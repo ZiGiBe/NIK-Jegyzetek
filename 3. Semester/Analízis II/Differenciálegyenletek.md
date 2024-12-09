@@ -1,3 +1,4 @@
+#note
 - **Függvényegyenlet**: Az olyan egyenleteket, amelyekben a meghatározandó ismeretlen függvény
 - **Differenciálegyenlet**:  Olyan függvényegyenletet, amelyeknek felírásában az ismeretlen függvény mellett annak deriváltfüggvénye is szerepel.
 ## Differenciálegyenletek osztályozása
