@@ -1,0 +1,3 @@
+### Adatszerkezetek
+- [[Verem]]
+- [[Sor]]
