@@ -1,3 +1,4 @@
+#note
 Egy olyan adatszerkezet, ami LIFO (Last in, first out) alapján működik.
 ## Tömb alapú megvalósítás
 ### Szerkezet

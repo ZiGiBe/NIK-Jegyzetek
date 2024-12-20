@@ -1,3 +1,4 @@
+#note
 Egy olyan adatszerkezet, ami FIFO (First in, First Out) alapján működik
 ## Tömb alapú implementáció
 ### Szerkezet
