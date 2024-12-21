@@ -1,3 +1,4 @@
+#note 
 A bináris keresőfa egy összefüggő gráf, amiben minden csomópontnak maximum két gyereke van. Minden csúcs maximum egy éllel van összekötve, és csak egy gyökéreleme van. A gyerekekből a bal oldali mindig kisebb a csomóponttól, míg a jobboldali mindig nagyobb.
 ## Szerkezet
 ```plantuml
