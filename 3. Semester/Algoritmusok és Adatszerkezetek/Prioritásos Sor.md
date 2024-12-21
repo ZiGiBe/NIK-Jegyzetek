@@ -24,7 +24,7 @@ class LáncoltPrioritásosSor<T, ahol T összehasonlítható> implements Priorit
 ### [[Sor#Láncolás alapú implementáció#Konstruktor|Konstruktor]]
 ### [[Sor#Láncolás alapú implementáció#Destruktor|Destruktor]]
 ### [[Sor#Láncolás alapú implementáció#Sorból|Sorból]]
-## [[Sor#Láncolás alapú implementáció#Első|Első]]
+### [[Sor#Láncolás alapú implementáció#Első|Első]]
 ### Beszúrás
 ```pseudocode
 eljárás PrioritásosSor.Sorba(érték : T)
