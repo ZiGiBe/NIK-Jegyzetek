@@ -1,3 +1,4 @@
+#subject
 1. [[Integrálszámítás alkalmazásai]]
 2. [[Improprius integrálok]]
 3. [[Differenciálegyenletek]]

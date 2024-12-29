@@ -122,6 +122,10 @@ eljárás vége
 - Belső csúcsból:
 	- ha x kulcshoz tartozó baloldali, vagy jobboldali gyereke legalább t darabot tartalmaz, akkor meg kell annak a részfának legnagyobb elemét keresni, ezt átmásolni x-hez, és rekurzívan folytatni kell ezt a törlést erre a legnagyobb elemre folytatni
 	- Ha x bal- és jobboldalán t-nél kevesebb tartalom van, akkor a két gyerek összevonható x-el, az összevonás után az új kapott elemben töröljük x-et.
+### Legalább t darab elem biztosítása
+- Ha a baloldali testvérnek van legalább t darab tartalma, akkor a két testvérhez tartozó szülőbeli kulcsot levisszük a következő elem első kulcsaként, a baloldali testvér legnagyobb értékét felvisszük a szülőbe erre a helyre.
+- Ha a jobboldali testvérnek van legalább t darab tartalma, akkor a két testvérhez tartozó szülőbeli kulcsot levisszük a következő elem utolsó kulcsaként, és a jobboldali testvér legkisebb elemét felvisszük a szülőbe.
+- Ha mindkét testvérnek csak t-1 darab eleme van, akkor az egyik gyerek összevonható a következő elem csúcsával úgy, hogy levisszük a szülő rájuk hivatkozó kulcsát is.
 ### Algoritmusok
 ```pseudocode
 eljárás Törlés(érték)
