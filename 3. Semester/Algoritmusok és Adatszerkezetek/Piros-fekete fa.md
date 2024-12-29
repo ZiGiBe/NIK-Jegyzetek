@@ -1,3 +1,4 @@
+#note
 # Szabályok
 1. Mindig fekete a gyökércsúcs
 2. Minden piros csúcs minden gyereke fekete
@@ -129,7 +130,7 @@ eljárás BeszúrásJavítás(p)
 			p <- p.szülő.szülő
 		különben
 			ha p.szülő = p.szülő.szülő.bal akkor
-				ha p.szülő.jobb akkor
+				ha p = p.szülő.jobb akkor
 						p <- p.szülő
 						ForgatásBalra(p)
 				elágazás vége

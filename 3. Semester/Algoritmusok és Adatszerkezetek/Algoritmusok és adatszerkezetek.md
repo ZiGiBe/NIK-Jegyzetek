@@ -7,4 +7,5 @@
 - [[Szótár]]
 - [[Speciális láncolt listák]]
 - [[Bináris keresőfa]]
+- [[Piros-fekete fa]]
 - [[B-Fa]]
