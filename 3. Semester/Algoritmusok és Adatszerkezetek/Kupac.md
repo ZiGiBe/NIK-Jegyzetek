@@ -1,3 +1,4 @@
+#note
 Egy olyan bináris fa, ami tömbben tárolható.
 # Szabályok
 1. A tömb 1. eleme a gyökér

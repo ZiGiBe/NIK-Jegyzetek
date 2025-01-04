@@ -1,4 +1,5 @@
 #note
+## Rövid leírás
 A prioritásos sor hasonlít a [[Sor]] adatszerkezetre, annyi különbséggel, hogy minden elemnek van egy "prioritása", ami alapján a Sorból() adja vissza az első elemet. Emiatt a beszúrás változik, mivel "rendezetten" kell beszúrni mindig, illetve kötelező emiatt egy "frissítő" eljárás is, ami alapján újra "átrakja" egy adott értéket a sor. A frissítő eljárást akkor használjuk, amikor feltételezhetjük, hogy a prioritás a sorban megváltozott (pl.: sorból való kivételkor)
 ## Szerkezet
 ```plantuml

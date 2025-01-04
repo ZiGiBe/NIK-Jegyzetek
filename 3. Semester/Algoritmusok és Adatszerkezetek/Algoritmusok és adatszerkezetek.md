@@ -13,3 +13,4 @@
 - [[Kupac]]
 - [[Piros-fekete fa]]
 - [[B-Fa]]
+- [[Gráf adatszerkezet]]

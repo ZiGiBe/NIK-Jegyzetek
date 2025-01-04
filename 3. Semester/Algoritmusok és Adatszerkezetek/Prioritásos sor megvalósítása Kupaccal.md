@@ -1,4 +1,5 @@
 #note
+# [[Prioritásos Sor#Rövid leírás|Tudnivalók]]
 # Szerkezet
 ```plantuml
 interface PrioritásosSor<T, ahol T összehasonlítható>{
