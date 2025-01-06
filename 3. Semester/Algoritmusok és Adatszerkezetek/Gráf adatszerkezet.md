@@ -108,3 +108,93 @@ függvény TopologikusRendezés(g)
 	vissza L
 függvény vége
 ```
+# Legrövidebb út keresése
+## Elv
+- A legrövidebb úton a minimális összsúlyú utat értjük
+- Fontos, hogy Dijkstra algoritmusa nem tartalmazhat negatív súlyú éleket
+- Szélességi bejáráshoz hasonlóan körbejárjuk a csúcsokat ahol megkeressük a legrövidebb út hosszát.
+## Algoritmus
+- Változók
+	- $g$: a gráf
+	- $start$: a kiinduló csúcspont
+	- $L$: egy szótár, ami tartalmazza, ami a legrövidebb út hosszát tartalmazza
+	- $P$: egy szótár, ami megadja, az előző csúcsot az útban
+```pseudocode
+függvény Dijkstra(g, start)
+	g.Csúcsok.Bejár(x->{
+		L[x] <- inf
+		P[x] <- null
+		S.Sorba(x)
+	})
+	L[start] <- 0
+	ciklus amíg !S.Üres
+		u.Sorból(S)
+		g.Szomszédai().Bejár(x->{
+			ha L[u] + g.Súly(u, x) < L[x] akkor
+				L[x] <- L[u] + g.Súly(u, x)
+				P[x] <- u
+			elágazás vége
+		})
+	ciklus vége
+	vissza (L, P)
+függvény vége
+```
+# Minimális feszítőfa
+## Prim
+- Elve hasonlít a szélességi bejáráshoz
+## Elv
+1. Két fő változót használunk $K$, és $P$-t
+	- $K$: tartalmazza, hogy milyen súlyú élen lehet bekötni a csúcsot a feszítőfába.
+	- $P$: Megadja, hogy mely csúcsokon keresztül lehet bekötni a csúcsot, ez a visszatérési érték is.
+2. $K$ minden elemét beállítjuk maximális súlyúra, $P$-ét pedig null elemekre
+3. Egy prioritási sorba minden csúcsot beteszünk
+4. A kezdőcsúcsot 0-ra állítjuk (innen indulunk ki.)
+5. Amíg nem üres a prioritásos sor a következőket tesszük
+	1. Kivesszünk a prioritásos sorban egy elemet
+	2. A kivett elem minden szomszédját megnézzük
+	3. Ha a sorban nem található ez a szomszéd, akkor feldolgozottnak tekintjük, ezzel a szomszéddal nincs dolgunk.
+	4. Ha mégis megtalálható, akkor megnézzük, hogy a jelenlegi csúcsba ez a szomszéd kisebb súllyal beköthető-e, mint a jelenlegi, ha igen, akkor felülírjuk $K$ megfelelő elemét ezzel a súllyal, illetve $P$-ben a jelenlegi szomszédot írjuk csatlakozási csúcsnak.
+```pseudocode
+függvény Prim(g, start)
+	g.Csúcsok.Bejár(x->{
+		K[x] <- inf
+		P[x] <- null
+		S.Sorba(x)
+	})
+	K[start] <- 0
+	ciklus amíg !S.Üres
+		u <- S.Sorból()
+		g.Szomszédai(u).Bejár(x->{
+			K[x] <- g.Súly(u,x)
+			P[x] <- u
+		})
+	ciklus vége
+	vissza P
+függvény vége
+```
+## Kruskal
+### Elv
+1. Minden csúcsot egy halmazba rakunk
+2. A gráf minden élét berakjuk egy prioritásos sorba
+3. Ezután a prioritásos sorban addig haladunk, amíg nem üres
+	1. A sorból kiveszünk egy elemet
+	2. Ha a két csúcs nincs egy halmazban, akkor ezt az élt berakjuk a kimeneti halmazba, és összevonjuk a két halmazt
+### Algoritmus
+```pseudocode
+függvény Kruskal(g)
+	g.Csúcsok.Bejár(x->{
+		HalmazLétrehoz(x)
+	})
+	g.Élek.Bejár(x->{
+		S <- (u,v)
+	})
+	ciklus amíg !S.Üres
+		(u,v) <- S.Sorból()
+		ha TartalmazHalmaz(u) != TartalmazHalmaz(v) akkor
+			A <- A U {(u, v)}
+			HalmazÖsszevon(TartalmazHalmaz(u), TartalmazHalmaz(v))
+		elágazás vége
+	ciklus vége
+	vissza A
+függvény vége
+```
