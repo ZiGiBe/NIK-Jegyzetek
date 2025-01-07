@@ -1,7 +1,8 @@
 #subject
-### Programozási paradigmák
+# Programozási paradigmák
 - [[Imperatív programozás]]
-### Adatszerkezetek
+# Megoldási stratégiák
+# Adatszerkezetek
 - [[Verem]]
 - [[Sor]]
 - [[Lista]]

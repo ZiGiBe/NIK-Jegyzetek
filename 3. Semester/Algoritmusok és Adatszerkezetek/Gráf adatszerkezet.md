@@ -165,8 +165,10 @@ függvény Prim(g, start)
 	ciklus amíg !S.Üres
 		u <- S.Sorból()
 		g.Szomszédai(u).Bejár(x->{
-			K[x] <- g.Súly(u,x)
-			P[x] <- u
+			ha S.Eleme(x) & g.Súly(u,x) < K[x] akkor
+				K[x] <- g.Súly(u,x)
+				P[x] <- u
+			elágazás vége
 		})
 	ciklus vége
 	vissza P
