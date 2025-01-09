@@ -79,3 +79,45 @@
 	- Komplex probléma definiálása
 	- Iteratív felbontása
 	- Elemi lépések megvalósítása
+## Objektum orientált elv
+### Előnyök
+- Rugalmasság
+- Karbantarthatóság
+- Párhuzamos fejlesztés
+- Kódújrafelhasználás
+### Hátrányok
+- Több munkát igényelhet
+### Absztrakció
+- Kevésbé komplex
+- Komplexitás elrejtése
+	- Egységbezárás
+		- Adatokat elrejtjük (biztonságos kód)
+- Minden objektum önnálló egység
+### Alapelemek
+- Az OOP elvnek alapelemei az objektumok
+- Minden objektum modellezés során azonosítható
+- Ezek önálló életciklussal rendelkeznek
+- Szolgáltatásokat nyújtanak
+- Együttműködnek
+### Osztályok
+- Össze tudnak fogni
+	- Ős adatokat, műveleteket örököl a leszármazott
+	- A leszármazott ezt kiegészíthető új adattal, műveletekkel
+	- Akár módosíthat is (metódus felülírása)
+	- Felülírás történhet
+		- Késői kötéssel (virtual, polimorfizmushoz)
+		- Korai kötéssel
+- Előnyök
+	- Kódújrafelhasználás
+	- Polimorfizmus
+	- Hierarchia áttekinthető
+### Interfészek, implementációk
+- Interfész: Egy objektum “mit” csinál, meghatározza milyen feladatot old meg egy objektum/művelet
+- Implementáció: Egy objektum “hogyan” csinálja, azaz a követelmenyéket adja meg
+- Előnyök
+	- Interfészek
+		- Információ teljes elrejtése
+		- Absztrakció legmagasabb
+		- Függőségek csökkentése
+		- Polimorfizmushoz jól alkalmazhatóak
+		- 

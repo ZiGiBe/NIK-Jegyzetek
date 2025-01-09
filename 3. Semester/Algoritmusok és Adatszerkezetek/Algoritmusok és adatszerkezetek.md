@@ -1,7 +1,16 @@
 #subject
 # Programozási paradigmák
 - [[Imperatív programozás]]
+- [[Deklaratív programozás]]
 # Megoldási stratégiák
+- [[Nyers erő módszere]]
+- [[Mohó algoritmusok]]
+- [[Heurisztikus módszer]]
+- [[Oszd meg és uralkodj]]
+	- [[Feljegyzéses módszer]]
+- [[Táblázatos módszer]]
+- [[Visszakereséses módszer]]
+	- [[Szétválasztás és korlátozás módszere|Szétválasztás, és korlátozás]]
 # Adatszerkezetek
 - [[Verem]]
 - [[Sor]]

@@ -1,3 +1,4 @@
+#note
 A nyers erő módszere egy könnyen alkalmazható megoldási stratégia. Egyetlen követelménye, hogy véges mennyiségű megoldás legyen a feladathoz.
 # Elv
 1. Következő megoldás kiválasztása/generálása
