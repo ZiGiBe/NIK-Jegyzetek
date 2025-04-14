@@ -1,0 +1,49 @@
+## Programozási ismeretek
+- OOP (TODO)
+- [[I. Egyszerű programozási tételek|Alapvető Tömb Algoritmusok]]
+- [[II. Alapvető Rendező Algoritmusok|Rendező algoritmusok]]
+- [[II. Alapvető Rendező Algoritmusok|Alap rendező algoritmusok]]
+- Rendezett tömbök
+	- [[VIII. Bináris keresés I.|Bináris keresés iteratívan]]
+	- [[IX. Bináris keresés II.|Bináris keresés rekurzívan]]
+	- [[XII. Halmazok II.#Metszet|Halmazok metszete]]
+	- [[XII. Halmazok II.#Unió|Halmazok uniója]]
+-  Oszd meg és uralkodj!
+	- [[XV. Összefésülő rendezés|Összefésülő rendezés]]
+	- [[XVI. Quicksort|Gyorsrendezés]]
+- Dinamikus programozás, backtracking (0-1 hátizsákkal)
+	- [[Táblázatos módszer|Dinamikus programozás]]
+	- [[Visszakereséses módszer|Backtracking]]
+- Láncolt adatszerkezetek
+	- [[Verem#Láncolás alapú megvalósítás|Verem]]
+	- [[Sor#Láncolás alapú implementáció|Sor]]
+	- [[Lista#Lánc alapú implementáció|Lista]]
+	- [[Prioritásos Sor]]
+- [[Bináris keresőfa]]
+- Szótárak
+	- [[Szótár#Megvalósítások|Megvalósítások]]
+	- [[Szótár#Hasítófüggvény implementációk|Hasítófüggvények]]
+- Gráfok
+	- [[Gráf adatszerkezet#Bejárások|Gráf bejárásai]]
+	- [[Gráf adatszerkezet#Topologikus rendezés|Topológiai rendezés]]
+	- [[Gráf adatszerkezet#Legrövidebb út keresése|Útkeresés]]
+## Rendszertechnikai ismeretek
+- Elektromosság alapjai
+- Elektromos tér munkája, hőhatása, teljesítménye
+- A váltakozó áram, elektronikai alapparaméterek, alaptörvények
+- Elem kémiai működése, elektrolízis
+- Az elektromos rendszerek felépítése, hálózati számítások
+- Passzív alkatrészek, szűrők
+- Elektronikus áramkörök alapeszközei
+- Tranzisztorok
+	- Tranzisztorok
+	- Tranzisztoros alapkapcsolások
+- Analóg jelek erősítése
+- Műveleti erősítők
+- Boole-algebra
+- Ideális, valós építőelemek
+- Sorrendi hálózatok
+- Szinkron hálózatok
+- Tipikus szinkron hálózatok
+- CPU
+- Logikai áramkörcsaládok
