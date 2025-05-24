@@ -15,7 +15,7 @@ $$
 # Nagy számok törvénye
 ## Átlagra
 $$
-P(|{\frac{x_1+x_2+\dots+x_n}{n} - m} \geq \varepsilon| \leq \frac{\sigma^2}{\varepsilon^2n}
+P(|{\frac{x_1+x_2+\dots+x_n}{n} - m|} \geq \varepsilon)) \leq \frac{\sigma^2}{\varepsilon^2n}
 $$
 ## Relatív gyakoriságra
 $$
