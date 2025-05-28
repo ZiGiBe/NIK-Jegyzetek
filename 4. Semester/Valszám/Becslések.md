@@ -54,5 +54,6 @@ $$
 ### Intervallum szórásra
 $$
 \left[\sqrt{n-1}\frac{s^*_n}{\sqrt{c_2}}; \sqrt{n-1}\frac{s^*_n}{\sqrt{c_1}} \right]
-$$$c_1$: $\chi^2$ táblázat $n-1$ sora, $1-\frac{\varepsilon}{2}$ oszlopa.
+$$
+$c_1$: $\chi^2$ táblázat $n-1$ sora, $1-\frac{\varepsilon}{2}$ oszlopa.
 $c_2$: $\chi^2$ táblázat $n-1$ sora, $\frac{\varepsilon}{2}$ oszlopa.
