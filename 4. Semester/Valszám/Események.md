@@ -1,3 +1,4 @@
+## Alapvető fogalmak
 - **Kísérlet**: egy véletlen tömegjelenség megfigyelését jelenti. Egyik lehetséges kimenetele az elemi esemény.
 - **Eseménytér**: a kísérletekhez tartozó elemi események összessége.
   Jele: $\Omega$. 

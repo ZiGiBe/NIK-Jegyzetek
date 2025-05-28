@@ -1,16 +1,21 @@
-#subject 
-1. [[Események]]
-2. [[Valószínűség]]
-3. [[Feltételes valószínűség]]
-4. [[Diszkrét valószínűségi változók]]
-5. [[Nevezetes diszkrét valószínűségi eloszlások]]
-6. [[Folytonos valószínűségi változók]]
-7. [[Nevezetes folytonos valószínűségi változók]]
-8. [[Egyenlőtlenségek]]
-9. [[Határeloszlások]]
-10. [[Statisztika]]
-11. [[Becslések]]
-12. [[Hipotézisvizsgálat]]
-13. [[Paraméteres próbák]]
-14. [[Nem-paraméteres próbák]]
-15. [[Korreláció-, regresszióelemzés]]
+---
+tags:
+  - subject
+title: Valószínűségszámítás
+author: Zick Balázs
+---
+![[Események]]
+![[Valószínűség]]
+![[Feltételes valószínűség]]
+![[Diszkrét valószínűségi változók]]
+![[Nevezetes diszkrét valószínűségi eloszlások]]
+![[Folytonos valószínűségi változók]]
+![[Nevezetes folytonos valószínűségi változók]]
+![[Egyenlőtlenségek]]
+![[Határeloszlások]]
+![[Statisztika]]
+![[Becslések]]
+![[Hipotézisvizsgálat]]
+![[Paraméteres próbák]]
+![[Nem-paraméteres próbák]]
+![[Korreláció-, regresszióelemzés]]
